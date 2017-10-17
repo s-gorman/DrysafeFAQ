@@ -28,12 +28,12 @@
           background-color: #045AA6;
           color: white;
           margin-top: 125px;
-          border-radius: 100px;
+          border-radius: 0px;
           
       }
       #faq{
           background-color: #DBEA39;
-          border-radius: 50px;
+          border-radius: 0px;
       }
  
       .container-fluid {
@@ -85,7 +85,12 @@
       
       
 @media(min-width:768px){}
-@media(min-width:992px){}
+@media(max-width:993px){
+     #services, #faq {
+              margin-top: 5px;
+             
+          }
+      }
 @media(min-width:1200px){}
     </style>
 </head>
@@ -122,7 +127,7 @@
       
             
 <div class="row">
-        <div id="about" class="col-md-6 col-md-offset-1 col-sm-10 col-sm-offset-1 col-xs-12 container-fluid text-center">
+        <div id="about" class="col-md-6 col-md-offset-1 col-xs-12 container-fluid text-center">
              <div>
 <img src="iStock-528051102.jpg" class="img-responsive" style="display:inline" alt="Woman with laundry basket full of clothes" width="500px">
         </div>
@@ -134,13 +139,13 @@
                                     
 
          <a href="tel:+1-571-313-5112" class="btn-transform">
-            <p class="call">571-313-5112</p></a>
+            <p class="call btn-transform">571-313-5112</p></a>
 <p class="important">We promptly respond to calls and texts.</p>
 <p class="important">Serving Arlington Virginia and areas up to 50 miles away</p>
 </div>
 
 
-<div id="services" class="col-md-3 col-md-offset-1 col-sm-10 col-sm-offset-1 col-xs-12 container-fluid text-center">
+<div id="services" class="col-md-3 col-md-offset-1 col-xs-12 container-fluid text-center">
         
             <h3>Services Offered</h3>
         
@@ -163,11 +168,13 @@
           
     </div>
     </div>
-    <div id="faq" class="col-md-8 col-md-offset-2 col-sm-10 col-sm-offset-1 col-xs-12 container-fluid text-center">
+    <div id="faq" class="col-md-8 col-md-offset-2 col-xs-12 container-fluid text-center">
         <h3>Frequently Asked Questions</h3>
+        <div class="col-sm-10 col-sm-offset-1">
         <h4>Why Should I Clean My Dryer Vent?</h4>
         <p>Lint and other debris can build up in your dryer hose and vent duct, reducing air flow, backing up exhaust gases and eventually creating a fire. Annually there are around 18,000 dryer vent fires in the U.S. These hazards can be avoided by thoroughly inspecting and cleaning your dryer vent every year.  A blocked vent or vent with restricted airflow shortens the life of your dryer. It can lead to costly repairs if the fan , blower , or heating element burns out. A clogged dryer vent wastes more electric or natural gas to dry your clothes. You should never need to dry your clothes several times to get them dry.</p>
-        <div class="col-md-4 col-md-offset-1">
+        </div>
+        <div class="col-md-4 col-md-offset-1 col-sm-5 col-sm-offset-1">
 
     
             <h4>How Do We Clean Your Dryer Vent?</h4>
@@ -192,7 +199,7 @@
     
             </div>
 
-        <div class="col-md-4 col-md-offset-2">
+        <div class="col-md-4 col-md-offset-2 col-sm-5">
             
             <h4>How often should I clean my dryer vent?</h4>
 
